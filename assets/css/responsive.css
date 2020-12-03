@@ -360,6 +360,10 @@
     margin: 10px 15px;
     width: 40%;
     text-align: left; }
+  .radius{
+    border-radius:15px;
+  }
+
 
   .mh-testimonial .mh-client-item {
     padding: 30px 10px; }
