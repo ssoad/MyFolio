@@ -487,6 +487,7 @@
             <br><br>
             <a href="https://github.com/ssoad"><img src="https://ghchart.rshah.org/ssoad" width=1000, alt="Soad's Github Chart" /></a>
             <br> <br>
+            <iframe id="myFrame" width="600" height="600" src="https://ionicabizau.github.io/github-profile-languages/api.html?ssoad" frameborder="0"></iframe>
         </div>
     </section>
 
@@ -1210,5 +1211,15 @@
     </div>
     -->
 </body>
+<script>
+    var frame = document.getElementById('myFrame');
+        frame.onload = function () {
+            var body = frame.contentWindow.document.querySelector('body');
+            body.style.color = 'white';
+            body.style.fontSize = '20px';
+            body.style.lineHeight = '20px';
+        };
+    </script>
+    
 
 </html>
