@@ -215,16 +215,16 @@ const skills = {
           style: {
             backgroundColor: "transparent",
             color: "#178600",
-          },
         },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            backgroundColor: "transparent",
-            color: "#FC8D0E",
-          },
-        },
+      },
+      {
+        skillName: "Java",
+        fontAwesomeClassname: "simple-icons:java",
+        style: {
+          backgroundColor: "transparent",
+          color: "#FC8D0E",
+      },
+    },
         // {
         //   skillName: "HTML5",
         //   fontAwesomeClassname: "simple-icons:html5",
@@ -554,14 +554,8 @@ const experience = {
           logo_path: "befair.png",
           duration: "Oct 2021 - Dec 2021",
           location: "Dhaka, Bangladesh",
-          description: [
-            "Act as Project Leader in some user-based Android App Project",
-            "Coordinated with other engineers to evaluate and improve software and hardware interfaces.",
-            "Developed and Maintained some Education based Offline Application with Data Synchronizations.",
-            "Worked with others team members to design and develop robust solutions to meet client requirements for functionality scalability and performance.",
-            "Created procedures for backup and optimization in Mobile Application.",
-            "Ensure high performance on low memory devices and reduce server usage.",
-          ],
+          description:[
+            "Act as Project Leader in some user-based Android App Project","Coordinated with other engineers to evaluate and improve software and hardware interfaces.","Developed and Maintained some Education based Offline Application with Data Synchronizations.","Worked with others team members to design and develop robust solutions to meet client requirements for functionality scalability and performance.", "Created procedures for backup and optimization in Mobile Application.","Ensure high performance on low memory devices and reduce server usage."],
           color: "#0879bf",
         },
         {
@@ -571,15 +565,8 @@ const experience = {
           logo_path: "ai_sol.jpg",
           duration: "Jan 2021 - Sep 2021",
           location: "Dhaka, Bangladesh",
-          description: [
-            "Developed and maintained some mobile application from scratch for Android platform.",
-            "Worked closely with other team members in such tasks as troubleshooting and debugging.",
-            "Collaborated with engineers, system analysts, and programmers regarding project capabilities and limitations to deliver optimal functionality.",
-            "Designed new features for mobile apps such as Offline Translator.",
-            "Wrote code for database-driven applications.",
-            "Collaborated with multidisciplinary teams to layout, design, and unfold new technology features.",
-            "Conducted data modeling, performance and integration testing.",
-          ],
+          description:[
+            "Developed and maintained some mobile application from scratch for Android platform.","Worked closely with other team members in such tasks as troubleshooting and debugging.","Collaborated with engineers, system analysts, and programmers regarding project capabilities and limitations to deliver optimal functionality.", "Designed new features for mobile apps such as Offline Translator.", "Wrote code for database-driven applications.","Collaborated with multidisciplinary teams to layout, design, and unfold new technology features.","Conducted data modeling, performance and integration testing."],
           color: "#9b1578",
         },
       ],
@@ -594,16 +581,17 @@ const experience = {
           logo_path: "pnt.png",
           duration: "January 2022 -  March 2022",
           location: "Dhaka, Bangladesh",
-          description: [
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          ],
+          description:[
+            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL."],
           color: "#ee3c26",
         },
+        
       ],
     },
     {
       title: "Volunteerships",
       experiences: [
+        
         {
           title: "Developer Program Member",
           company: "Github",
@@ -611,9 +599,8 @@ const experience = {
           logo_path: "github_logo.png",
           duration: "July 2019 - PRESENT",
           location: "Work From Home",
-          description: [
-            "I am actively contributing to many opensource projects. I have contributed to many open-source projects. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          ],
+          description:
+            ["I am actively contributing to many opensource projects. I have contributed to many open-source projects. These contributions include bug fixes, feature requests and formulating proper documentation for project."],
           color: "#181717",
         },
       ],
@@ -653,7 +640,8 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Dhaka, Bangladesh",
+    subtitle:
+      "Dhaka, Bangladesh",
     avatar_image_path: "address_image.svg",
     location_map_link: "",
   },
