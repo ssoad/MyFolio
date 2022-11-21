@@ -41,6 +41,7 @@
     "@iconify/react": "^1.1.1",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
+    "pre-commit": "^1.2.2",
     "prettier": "2.0.5"
   },
   "browserslist": {
