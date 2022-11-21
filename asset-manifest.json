@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyFolio/static/css/main.a766c2bc.css",
-    "main.js": "/MyFolio/static/js/main.52f6a10f.js",
+    "main.js": "/MyFolio/static/js/main.51d2aeff.js",
     "static/media/me_ani.png": "/MyFolio/static/media/me_ani.2d17d9434969e9309275.png",
     "static/media/portfolio.gif": "/MyFolio/static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/me_ani_1.png": "/MyFolio/static/media/me_ani_1.ea923ca54c7ae71abf57.png",
@@ -13,6 +13,7 @@
     "static/media/fa-solid-900.ttf": "/MyFolio/static/media/fa-solid-900.aae41ea25bd0dde9f796.ttf",
     "static/media/uap.png": "/MyFolio/static/media/uap.4fe44a2fb53d4ac68ec0.png",
     "static/media/fa-regular-400.svg": "/MyFolio/static/media/fa-regular-400.4e8f9fa44f7ec7479c39.svg",
+    "static/media/hse_logo.png": "/MyFolio/static/media/hse_logo.8d048e068178aa3964df.png",
     "static/media/fa-brands-400.eot": "/MyFolio/static/media/fa-brands-400.b09f783b99c88d6989f7.eot",
     "static/media/fa-brands-400.ttf": "/MyFolio/static/media/fa-brands-400.ec7723ea62ad74c14959.ttf",
     "static/media/GoogleSans-Italic.ttf": "/MyFolio/static/media/GoogleSans-Italic.40bb50bd202405745006.ttf",
@@ -34,6 +35,7 @@
     "static/media/me_ani.jpg": "/MyFolio/static/media/me_ani.9ef9fbd37482523069c5.jpg",
     "static/media/intel_logo.jpg": "/MyFolio/static/media/intel_logo.d7577f35a3dac4e5636d.jpg",
     "static/media/ui_ux_design.svg": "/MyFolio/static/media/ui_ux_design.42a2cdaf132097cc499e.svg",
+    "static/media/jhu_logo.png": "/MyFolio/static/media/jhu_logo.9a5c3ff5ab6b10ef85e1.png",
     "static/media/manOnTable.svg": "/MyFolio/static/media/manOnTable.f861b03b5a2d1a28c198.svg",
     "static/media/muffito_logo.png": "/MyFolio/static/media/muffito_logo.a40e290031eaf389bde1.png",
     "static/media/deeplearning_ai_logo.png": "/MyFolio/static/media/deeplearning_ai_logo.f5e1bd288e7a2b30a390.png",
@@ -64,10 +66,10 @@
     "static/media/talksCardBackAlt.svg": "/MyFolio/static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "/MyFolio/static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
     "main.a766c2bc.css.map": "/MyFolio/static/css/main.a766c2bc.css.map",
-    "main.52f6a10f.js.map": "/MyFolio/static/js/main.52f6a10f.js.map"
+    "main.51d2aeff.js.map": "/MyFolio/static/js/main.51d2aeff.js.map"
   },
   "entrypoints": [
     "static/css/main.a766c2bc.css",
-    "static/js/main.52f6a10f.js"
+    "static/js/main.51d2aeff.js"
   ]
 }
