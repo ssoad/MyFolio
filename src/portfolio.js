@@ -215,16 +215,16 @@ const skills = {
           style: {
             backgroundColor: "transparent",
             color: "#178600",
+          },
         },
-      },
-      {
-        skillName: "Java",
-        fontAwesomeClassname: "simple-icons:java",
-        style: {
-          backgroundColor: "transparent",
-          color: "#FC8D0E",
-      },
-    },
+        {
+          skillName: "Java",
+          fontAwesomeClassname: "simple-icons:java",
+          style: {
+            backgroundColor: "transparent",
+            color: "#FC8D0E",
+          },
+        },
         // {
         //   skillName: "HTML5",
         //   fontAwesomeClassname: "simple-icons:html5",
@@ -416,7 +416,7 @@ const degrees = {
         "⚡ Studied Computer Science fundamentals like Data Structure, Algorithms, Database Management , Operating System, Artificial Inteligence etc.",
         "⚡ Studied Data Science fundamentals like Machine Learning, Deep Learning, Data Visualization, Data Mining etc.",
         "⚡ I was selected for Vice Chancellor’s Scholarship program serveral times during my pursuing time.",
-        "⚡Completed Thesis on Generative Advarsarial Networks(GAN).",
+        "⚡ Completed Thesis on Generative Advarsarial Networks (GAN).",
       ],
       website_link: "https://uap-bd.edu",
     },
@@ -426,113 +426,158 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
+      title: "Deep Learning Specialization",
       subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
+      logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
+        "https://www.coursera.org/account/accomplishments/specialization/9BC9JGDZBTQ3",
+      alt_name: "deeplearning.ai",
+      color_code: "#00000099",
+    },
+    {
+      title: "Deep Learning in Computer Vision",
+      subtitle: "- Anton Konushin & Alexey Artemov",
+      logo_path: "hse_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/X46V5HXS2HTB",
+      alt_name: "HSE University",
       color_code: "#8C151599",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "How to Win a Data Science Competition: Learn from Top Kagglers",
+      subtitle: "- Dmitry Ulyanov",
+      logo_path: "hse_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
+        "https://www.coursera.org/account/accomplishments/verify/CP9F25PHNPZY",
+      alt_name: "HSE University",
+      color_code: "#8C151599",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
+      title: "Getting Started with AI using IBM Watson",
+      subtitle: "- Rav Ahuja",
       logo_path: "ibm_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
+        "https://www.coursera.org/account/accomplishments/verify/8BQNNVCPWZPB",
       alt_name: "IBM",
       color_code: "#1F70C199",
     },
     {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
+      title: "The Data Scientist’s Toolbox",
+      subtitle: "- Jeff Leek, PhD",
+      logo_path: "jhu_logo.png",
       certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
+        "https://www.coursera.org/account/accomplishments/verify/8BQNNVCPWZPB",
+      alt_name: "Johns Hopkins University",
       color_code: "#1F70C199",
     },
     {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
+      title: "Crash Course on Python",
+      subtitle: "- Google Career Certificates",
       logo_path: "google_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
+        "https://www.coursera.org/account/accomplishments/verify/6EE3EMJ2LVX2",
       alt_name: "Google",
       color_code: "#0C9D5899",
     },
     {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "Introduction to Git and GitHub",
+      subtitle: "- Google Career Certificates",
+      logo_path: "google_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
+        "https://www.coursera.org/account/accomplishments/verify/3SRFQCP5WFWK",
+      alt_name: "Google",
+      color_code: "#0C9D5899",
     },
     {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
+      title: "Intro to ML: Language Processing",
+      subtitle: "- GCP Training",
+      logo_path: "google_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
+        "https://www.cloudskillsboost.google/public_profiles/7b304efc-0b3d-4a62-b1c5-1a775d7be49c/badges/197230",
+      alt_name: "Google",
+      color_code: "#0C9D5899",
     },
     {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
+      title: "BigQuery Basics for Data Analysts",
+      subtitle: "- GCP Training",
+      logo_path: "google_logo.png",
       certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
+        "https://www.cloudskillsboost.google/public_profiles/7b304efc-0b3d-4a62-b1c5-1a775d7be49c/badges/230815",
+      alt_name: "Google",
+      color_code: "#0C9D5899",
     },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
+    // {
+    //   title: "Big Data",
+    //   subtitle: "- Kim Akers",
+    //   logo_path: "microsoft_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
+    //   alt_name: "Microsoft",
+    //   color_code: "#D83B0199",
+    // },
+    // {
+    //   title: "Advanced Data Science",
+    //   subtitle: "- Romeo Kienzler",
+    //   logo_path: "ibm_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
+    //   alt_name: "IBM",
+    //   color_code: "#1F70C199",
+    // },
+    // {
+    //   title: "Advanced ML on GCP",
+    //   subtitle: "- GCP Training",
+    //   logo_path: "google_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
+    //   alt_name: "Google",
+    //   color_code: "#0C9D5899",
+    // },
+    // {
+    //   title: "DL on Tensorflow",
+    //   subtitle: "- Laurence Moroney",
+    //   logo_path: "deeplearning_ai_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
+    //   alt_name: "deeplearning.ai",
+    //   color_code: "#00000099",
+    // },
+    // {
+    //   title: "Fullstack Development",
+    //   subtitle: "- Jogesh Muppala",
+    //   logo_path: "coursera_logo.png",
+    //   certificate_link:
+    //     "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
+    //   alt_name: "Coursera",
+    //   color_code: "#2A73CC",
+    // },
+    // {
+    //   title: "Kuberenetes on GCP",
+    //   subtitle: "- Qwiklabs",
+    //   logo_path: "gcp_logo.png",
+    //   certificate_link:
+    //     "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
+    //   alt_name: "GCP",
+    //   color_code: "#4285F499",
+    // },
+    // {
+    //   title: "Cryptography",
+    //   subtitle: "- Saurabh Mukhopadhyay",
+    //   logo_path: "nptel_logo.png",
+    //   certificate_link:
+    //     "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
+    //   alt_name: "NPTEL",
+    //   color_code: "#FFBB0099",
+    // },
+    // {
+    //   title: "Cloud Architecture",
+    //   subtitle: "- Qwiklabs",
+    //   logo_path: "gcp_logo.png",
+    //   certificate_link:
+    //     "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
+    //   alt_name: "GCP",
+    //   color_code: "#4285F499",
+    // },
   ],
 };
 
@@ -554,8 +599,14 @@ const experience = {
           logo_path: "befair.png",
           duration: "Oct 2021 - Dec 2021",
           location: "Dhaka, Bangladesh",
-          description:[
-            "Act as Project Leader in some user-based Android App Project","Coordinated with other engineers to evaluate and improve software and hardware interfaces.","Developed and Maintained some Education based Offline Application with Data Synchronizations.","Worked with others team members to design and develop robust solutions to meet client requirements for functionality scalability and performance.", "Created procedures for backup and optimization in Mobile Application.","Ensure high performance on low memory devices and reduce server usage."],
+          description: [
+            "Act as Project Leader in some user-based Android App Project",
+            "Coordinated with other engineers to evaluate and improve software and hardware interfaces.",
+            "Developed and Maintained some Education based Offline Application with Data Synchronizations.",
+            "Worked with others team members to design and develop robust solutions to meet client requirements for functionality scalability and performance.",
+            "Created procedures for backup and optimization in Mobile Application.",
+            "Ensure high performance on low memory devices and reduce server usage.",
+          ],
           color: "#0879bf",
         },
         {
@@ -565,8 +616,15 @@ const experience = {
           logo_path: "ai_sol.jpg",
           duration: "Jan 2021 - Sep 2021",
           location: "Dhaka, Bangladesh",
-          description:[
-            "Developed and maintained some mobile application from scratch for Android platform.","Worked closely with other team members in such tasks as troubleshooting and debugging.","Collaborated with engineers, system analysts, and programmers regarding project capabilities and limitations to deliver optimal functionality.", "Designed new features for mobile apps such as Offline Translator.", "Wrote code for database-driven applications.","Collaborated with multidisciplinary teams to layout, design, and unfold new technology features.","Conducted data modeling, performance and integration testing."],
+          description: [
+            "Developed and maintained some mobile application from scratch for Android platform.",
+            "Worked closely with other team members in such tasks as troubleshooting and debugging.",
+            "Collaborated with engineers, system analysts, and programmers regarding project capabilities and limitations to deliver optimal functionality.",
+            "Designed new features for mobile apps such as Offline Translator.",
+            "Wrote code for database-driven applications.",
+            "Collaborated with multidisciplinary teams to layout, design, and unfold new technology features.",
+            "Conducted data modeling, performance and integration testing.",
+          ],
           color: "#9b1578",
         },
       ],
@@ -581,17 +639,16 @@ const experience = {
           logo_path: "pnt.png",
           duration: "January 2022 -  March 2022",
           location: "Dhaka, Bangladesh",
-          description:[
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL."],
+          description: [
+            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+          ],
           color: "#ee3c26",
         },
-        
       ],
     },
     {
       title: "Volunteerships",
       experiences: [
-        
         {
           title: "Developer Program Member",
           company: "Github",
@@ -599,8 +656,9 @@ const experience = {
           logo_path: "github_logo.png",
           duration: "July 2019 - PRESENT",
           location: "Work From Home",
-          description:
-            ["I am actively contributing to many opensource projects. I have contributed to many open-source projects. These contributions include bug fixes, feature requests and formulating proper documentation for project."],
+          description: [
+            "I am actively contributing to many opensource projects. I have contributed to many open-source projects. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
+          ],
           color: "#181717",
         },
       ],
@@ -640,8 +698,7 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Dhaka, Bangladesh",
+    subtitle: "Dhaka, Bangladesh",
     avatar_image_path: "address_image.svg",
     location_map_link: "",
   },
